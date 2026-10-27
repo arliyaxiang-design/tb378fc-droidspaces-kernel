@@ -1,0 +1,10 @@
+{
+  "device": "TB378FC",
+  "kernel_commit": "076ac12bde16ea0405a4ffd30404085b96b74eb5",
+  "clang_commit": "42d100b025eb5f4a41781348016c148e9e912cf9",
+  "upstream_patch_commit": "d0b3a2e1fac8d238f78119879811119be35d32f4",
+  "upstream_patch_path": "Documentation/resources/kernel-patches/GKI/below-kernel-6.12/001.GKI-below-6.12-fix_sysvipc_kabi_6_7_8.patch",
+  "patch_note": "Same SYSVIPC reserve-6/7/8 logic as upstream. Diff context regenerated for the pinned 6.6 source; its CONFIG_RV block differs from upstream patch context.",
+  "sched_h_sha256": "27e6e62742d1b7f9d54d3f0058271bb6da1c55b8efc141c48d2eee0fc04d126c",
+  "status": "Prepared and statically inspected only; not compiled or flash ready."
+}

@@ -1,0 +1,1852 @@
+{
+  "task_struct": {
+    "size": 4800,
+    "members": {
+      "thread_info": {
+        "bits": 0,
+        "width": 0
+      },
+      "__state": {
+        "bits": 384,
+        "width": 0
+      },
+      "saved_state": {
+        "bits": 416,
+        "width": 0
+      },
+      "stack": {
+        "bits": 448,
+        "width": 0
+      },
+      "usage": {
+        "bits": 512,
+        "width": 0
+      },
+      "flags": {
+        "bits": 544,
+        "width": 0
+      },
+      "ptrace": {
+        "bits": 576,
+        "width": 0
+      },
+      "on_cpu": {
+        "bits": 608,
+        "width": 0
+      },
+      "wake_entry": {
+        "bits": 640,
+        "width": 0
+      },
+      "wakee_flips": {
+        "bits": 768,
+        "width": 0
+      },
+      "wakee_flip_decay_ts": {
+        "bits": 832,
+        "width": 0
+      },
+      "last_wakee": {
+        "bits": 896,
+        "width": 0
+      },
+      "recent_used_cpu": {
+        "bits": 960,
+        "width": 0
+      },
+      "wake_cpu": {
+        "bits": 992,
+        "width": 0
+      },
+      "on_rq": {
+        "bits": 1024,
+        "width": 0
+      },
+      "prio": {
+        "bits": 1056,
+        "width": 0
+      },
+      "static_prio": {
+        "bits": 1088,
+        "width": 0
+      },
+      "normal_prio": {
+        "bits": 1120,
+        "width": 0
+      },
+      "rt_priority": {
+        "bits": 1152,
+        "width": 0
+      },
+      "se": {
+        "bits": 1536,
+        "width": 0
+      },
+      "rt": {
+        "bits": 4096,
+        "width": 0
+      },
+      "dl": {
+        "bits": 4736,
+        "width": 0
+      },
+      "sched_class": {
+        "bits": 6656,
+        "width": 0
+      },
+      "sched_task_group": {
+        "bits": 6720,
+        "width": 0
+      },
+      "uclamp_req": {
+        "bits": 6784,
+        "width": 0
+      },
+      "uclamp": {
+        "bits": 6848,
+        "width": 0
+      },
+      "stats": {
+        "bits": 7168,
+        "width": 0
+      },
+      "preempt_notifiers": {
+        "bits": 9216,
+        "width": 0
+      },
+      "policy": {
+        "bits": 9280,
+        "width": 0
+      },
+      "nr_cpus_allowed": {
+        "bits": 9312,
+        "width": 0
+      },
+      "cpus_ptr": {
+        "bits": 9344,
+        "width": 0
+      },
+      "user_cpus_ptr": {
+        "bits": 9408,
+        "width": 0
+      },
+      "cpus_mask": {
+        "bits": 9472,
+        "width": 0
+      },
+      "migration_pending": {
+        "bits": 9536,
+        "width": 0
+      },
+      "migration_disabled": {
+        "bits": 9600,
+        "width": 0
+      },
+      "migration_flags": {
+        "bits": 9616,
+        "width": 0
+      },
+      "rcu_read_lock_nesting": {
+        "bits": 9632,
+        "width": 0
+      },
+      "rcu_read_unlock_special": {
+        "bits": 9664,
+        "width": 0
+      },
+      "rcu_node_entry": {
+        "bits": 9728,
+        "width": 0
+      },
+      "rcu_blocked_node": {
+        "bits": 9856,
+        "width": 0
+      },
+      "rcu_tasks_nvcsw": {
+        "bits": 9920,
+        "width": 0
+      },
+      "rcu_tasks_holdout": {
+        "bits": 9984,
+        "width": 0
+      },
+      "rcu_tasks_idx": {
+        "bits": 9992,
+        "width": 0
+      },
+      "rcu_tasks_idle_cpu": {
+        "bits": 10016,
+        "width": 0
+      },
+      "rcu_tasks_holdout_list": {
+        "bits": 10048,
+        "width": 0
+      },
+      "trc_reader_nesting": {
+        "bits": 10176,
+        "width": 0
+      },
+      "trc_ipi_to_cpu": {
+        "bits": 10208,
+        "width": 0
+      },
+      "trc_reader_special": {
+        "bits": 10240,
+        "width": 0
+      },
+      "trc_holdout_list": {
+        "bits": 10304,
+        "width": 0
+      },
+      "trc_blkd_node": {
+        "bits": 10432,
+        "width": 0
+      },
+      "trc_blkd_cpu": {
+        "bits": 10560,
+        "width": 0
+      },
+      "sched_info": {
+        "bits": 10624,
+        "width": 0
+      },
+      "tasks": {
+        "bits": 10880,
+        "width": 0
+      },
+      "pushable_tasks": {
+        "bits": 11008,
+        "width": 0
+      },
+      "pushable_dl_tasks": {
+        "bits": 11328,
+        "width": 0
+      },
+      "mm": {
+        "bits": 11520,
+        "width": 0
+      },
+      "active_mm": {
+        "bits": 11584,
+        "width": 0
+      },
+      "exit_state": {
+        "bits": 11648,
+        "width": 0
+      },
+      "exit_code": {
+        "bits": 11680,
+        "width": 0
+      },
+      "exit_signal": {
+        "bits": 11712,
+        "width": 0
+      },
+      "pdeath_signal": {
+        "bits": 11744,
+        "width": 0
+      },
+      "jobctl": {
+        "bits": 11776,
+        "width": 0
+      },
+      "personality": {
+        "bits": 11840,
+        "width": 0
+      },
+      "sched_reset_on_fork": {
+        "bits": 11872,
+        "width": 1
+      },
+      "sched_contributes_to_load": {
+        "bits": 11873,
+        "width": 1
+      },
+      "sched_migrated": {
+        "bits": 11874,
+        "width": 1
+      },
+      "sched_remote_wakeup": {
+        "bits": 11904,
+        "width": 1
+      },
+      "in_execve": {
+        "bits": 11905,
+        "width": 1
+      },
+      "in_iowait": {
+        "bits": 11906,
+        "width": 1
+      },
+      "in_user_fault": {
+        "bits": 11907,
+        "width": 1
+      },
+      "in_lru_fault": {
+        "bits": 11908,
+        "width": 1
+      },
+      "no_cgroup_migration": {
+        "bits": 11909,
+        "width": 1
+      },
+      "frozen": {
+        "bits": 11910,
+        "width": 1
+      },
+      "use_memdelay": {
+        "bits": 11911,
+        "width": 1
+      },
+      "in_memstall": {
+        "bits": 11912,
+        "width": 1
+      },
+      "in_page_owner": {
+        "bits": 11913,
+        "width": 1
+      },
+      "in_eventfd": {
+        "bits": 11914,
+        "width": 1
+      },
+      "in_thrashing": {
+        "bits": 11915,
+        "width": 1
+      },
+      "atomic_flags": {
+        "bits": 11968,
+        "width": 0
+      },
+      "restart_block": {
+        "bits": 12032,
+        "width": 0
+      },
+      "pid": {
+        "bits": 12480,
+        "width": 0
+      },
+      "tgid": {
+        "bits": 12512,
+        "width": 0
+      },
+      "stack_canary": {
+        "bits": 12544,
+        "width": 0
+      },
+      "real_parent": {
+        "bits": 12608,
+        "width": 0
+      },
+      "parent": {
+        "bits": 12672,
+        "width": 0
+      },
+      "children": {
+        "bits": 12736,
+        "width": 0
+      },
+      "sibling": {
+        "bits": 12864,
+        "width": 0
+      },
+      "group_leader": {
+        "bits": 12992,
+        "width": 0
+      },
+      "ptraced": {
+        "bits": 13056,
+        "width": 0
+      },
+      "ptrace_entry": {
+        "bits": 13184,
+        "width": 0
+      },
+      "thread_pid": {
+        "bits": 13312,
+        "width": 0
+      },
+      "pid_links": {
+        "bits": 13376,
+        "width": 0
+      },
+      "thread_group": {
+        "bits": 13888,
+        "width": 0
+      },
+      "thread_node": {
+        "bits": 14016,
+        "width": 0
+      },
+      "vfork_done": {
+        "bits": 14144,
+        "width": 0
+      },
+      "set_child_tid": {
+        "bits": 14208,
+        "width": 0
+      },
+      "clear_child_tid": {
+        "bits": 14272,
+        "width": 0
+      },
+      "worker_private": {
+        "bits": 14336,
+        "width": 0
+      },
+      "utime": {
+        "bits": 14400,
+        "width": 0
+      },
+      "stime": {
+        "bits": 14464,
+        "width": 0
+      },
+      "gtime": {
+        "bits": 14528,
+        "width": 0
+      },
+      "time_in_state": {
+        "bits": 14592,
+        "width": 0
+      },
+      "max_state": {
+        "bits": 14656,
+        "width": 0
+      },
+      "prev_cputime": {
+        "bits": 14720,
+        "width": 0
+      },
+      "nvcsw": {
+        "bits": 14912,
+        "width": 0
+      },
+      "nivcsw": {
+        "bits": 14976,
+        "width": 0
+      },
+      "start_time": {
+        "bits": 15040,
+        "width": 0
+      },
+      "start_boottime": {
+        "bits": 15104,
+        "width": 0
+      },
+      "min_flt": {
+        "bits": 15168,
+        "width": 0
+      },
+      "maj_flt": {
+        "bits": 15232,
+        "width": 0
+      },
+      "posix_cputimers": {
+        "bits": 15296,
+        "width": 0
+      },
+      "posix_cputimers_work": {
+        "bits": 15936,
+        "width": 0
+      },
+      "ptracer_cred": {
+        "bits": 16512,
+        "width": 0
+      },
+      "real_cred": {
+        "bits": 16576,
+        "width": 0
+      },
+      "cred": {
+        "bits": 16640,
+        "width": 0
+      },
+      "cached_requested_key": {
+        "bits": 16704,
+        "width": 0
+      },
+      "comm": {
+        "bits": 16768,
+        "width": 0
+      },
+      "nameidata": {
+        "bits": 16896,
+        "width": 0
+      },
+      "last_switch_count": {
+        "bits": 16960,
+        "width": 0
+      },
+      "last_switch_time": {
+        "bits": 17024,
+        "width": 0
+      },
+      "fs": {
+        "bits": 17088,
+        "width": 0
+      },
+      "files": {
+        "bits": 17152,
+        "width": 0
+      },
+      "io_uring": {
+        "bits": 17216,
+        "width": 0
+      },
+      "nsproxy": {
+        "bits": 17280,
+        "width": 0
+      },
+      "signal": {
+        "bits": 17344,
+        "width": 0
+      },
+      "sighand": {
+        "bits": 17408,
+        "width": 0
+      },
+      "blocked": {
+        "bits": 17472,
+        "width": 0
+      },
+      "real_blocked": {
+        "bits": 17536,
+        "width": 0
+      },
+      "saved_sigmask": {
+        "bits": 17600,
+        "width": 0
+      },
+      "pending": {
+        "bits": 17664,
+        "width": 0
+      },
+      "sas_ss_sp": {
+        "bits": 17856,
+        "width": 0
+      },
+      "sas_ss_size": {
+        "bits": 17920,
+        "width": 0
+      },
+      "sas_ss_flags": {
+        "bits": 17984,
+        "width": 0
+      },
+      "task_works": {
+        "bits": 18048,
+        "width": 0
+      },
+      "audit_context": {
+        "bits": 18112,
+        "width": 0
+      },
+      "loginuid": {
+        "bits": 18176,
+        "width": 0
+      },
+      "sessionid": {
+        "bits": 18208,
+        "width": 0
+      },
+      "seccomp": {
+        "bits": 18240,
+        "width": 0
+      },
+      "syscall_dispatch": {
+        "bits": 18368,
+        "width": 0
+      },
+      "parent_exec_id": {
+        "bits": 18368,
+        "width": 0
+      },
+      "self_exec_id": {
+        "bits": 18432,
+        "width": 0
+      },
+      "alloc_lock": {
+        "bits": 18496,
+        "width": 0
+      },
+      "pi_lock": {
+        "bits": 18528,
+        "width": 0
+      },
+      "wake_q": {
+        "bits": 18560,
+        "width": 0
+      },
+      "wake_q_count": {
+        "bits": 18624,
+        "width": 0
+      },
+      "pi_waiters": {
+        "bits": 18688,
+        "width": 0
+      },
+      "pi_top_task": {
+        "bits": 18816,
+        "width": 0
+      },
+      "pi_blocked_on": {
+        "bits": 18880,
+        "width": 0
+      },
+      "journal_info": {
+        "bits": 18944,
+        "width": 0
+      },
+      "bio_list": {
+        "bits": 19008,
+        "width": 0
+      },
+      "plug": {
+        "bits": 19072,
+        "width": 0
+      },
+      "reclaim_state": {
+        "bits": 19136,
+        "width": 0
+      },
+      "io_context": {
+        "bits": 19200,
+        "width": 0
+      },
+      "capture_control": {
+        "bits": 19264,
+        "width": 0
+      },
+      "ptrace_message": {
+        "bits": 19328,
+        "width": 0
+      },
+      "last_siginfo": {
+        "bits": 19392,
+        "width": 0
+      },
+      "ioac": {
+        "bits": 19456,
+        "width": 0
+      },
+      "psi_flags": {
+        "bits": 19968,
+        "width": 0
+      },
+      "acct_rss_mem1": {
+        "bits": 20032,
+        "width": 0
+      },
+      "acct_vm_mem1": {
+        "bits": 20096,
+        "width": 0
+      },
+      "acct_timexpd": {
+        "bits": 20160,
+        "width": 0
+      },
+      "mems_allowed": {
+        "bits": 20224,
+        "width": 0
+      },
+      "mems_allowed_seq": {
+        "bits": 20288,
+        "width": 0
+      },
+      "cpuset_mem_spread_rotor": {
+        "bits": 20320,
+        "width": 0
+      },
+      "cpuset_slab_spread_rotor": {
+        "bits": 20352,
+        "width": 0
+      },
+      "cgroups": {
+        "bits": 20416,
+        "width": 0
+      },
+      "cg_list": {
+        "bits": 20480,
+        "width": 0
+      },
+      "robust_list": {
+        "bits": 20608,
+        "width": 0
+      },
+      "compat_robust_list": {
+        "bits": 20672,
+        "width": 0
+      },
+      "pi_state_list": {
+        "bits": 20736,
+        "width": 0
+      },
+      "pi_state_cache": {
+        "bits": 20864,
+        "width": 0
+      },
+      "futex_exit_mutex": {
+        "bits": 20928,
+        "width": 0
+      },
+      "futex_state": {
+        "bits": 21312,
+        "width": 0
+      },
+      "perf_event_ctxp": {
+        "bits": 21376,
+        "width": 0
+      },
+      "perf_event_mutex": {
+        "bits": 21440,
+        "width": 0
+      },
+      "perf_event_list": {
+        "bits": 21824,
+        "width": 0
+      },
+      "tlb_ubc": {
+        "bits": 21952,
+        "width": 0
+      },
+      "splice_pipe": {
+        "bits": 22016,
+        "width": 0
+      },
+      "task_frag": {
+        "bits": 22080,
+        "width": 0
+      },
+      "delays": {
+        "bits": 22208,
+        "width": 0
+      },
+      "nr_dirtied": {
+        "bits": 22272,
+        "width": 0
+      },
+      "nr_dirtied_pause": {
+        "bits": 22304,
+        "width": 0
+      },
+      "dirty_paused_when": {
+        "bits": 22336,
+        "width": 0
+      },
+      "timer_slack_ns": {
+        "bits": 22400,
+        "width": 0
+      },
+      "default_timer_slack_ns": {
+        "bits": 22464,
+        "width": 0
+      },
+      "kunit_test": {
+        "bits": 22528,
+        "width": 0
+      },
+      "trace_recursion": {
+        "bits": 22592,
+        "width": 0
+      },
+      "memcg_in_oom": {
+        "bits": 22656,
+        "width": 0
+      },
+      "memcg_oom_gfp_mask": {
+        "bits": 22720,
+        "width": 0
+      },
+      "memcg_oom_order": {
+        "bits": 22752,
+        "width": 0
+      },
+      "memcg_nr_pages_over_high": {
+        "bits": 22784,
+        "width": 0
+      },
+      "active_memcg": {
+        "bits": 22848,
+        "width": 0
+      },
+      "throttle_disk": {
+        "bits": 22912,
+        "width": 0
+      },
+      "utask": {
+        "bits": 22976,
+        "width": 0
+      },
+      "kmap_ctrl": {
+        "bits": 23040,
+        "width": 0
+      },
+      "rcu": {
+        "bits": 23040,
+        "width": 0
+      },
+      "rcu_users": {
+        "bits": 23168,
+        "width": 0
+      },
+      "pagefault_disabled": {
+        "bits": 23200,
+        "width": 0
+      },
+      "oom_reaper_list": {
+        "bits": 23232,
+        "width": 0
+      },
+      "oom_reaper_timer": {
+        "bits": 23296,
+        "width": 0
+      },
+      "stack_vm_area": {
+        "bits": 23744,
+        "width": 0
+      },
+      "stack_refcount": {
+        "bits": 23808,
+        "width": 0
+      },
+      "security": {
+        "bits": 23872,
+        "width": 0
+      },
+      "bpf_storage": {
+        "bits": 23936,
+        "width": 0
+      },
+      "bpf_ctx": {
+        "bits": 24000,
+        "width": 0
+      },
+      "android_vendor_data1": {
+        "bits": 24064,
+        "width": 0
+      },
+      "android_oem_data1": {
+        "bits": 28160,
+        "width": 0
+      },
+      "kretprobe_instances": {
+        "bits": 28544,
+        "width": 0
+      },
+      "android_kabi_reserved1": {
+        "bits": 28608,
+        "width": 0
+      },
+      "android_kabi_reserved2": {
+        "bits": 28672,
+        "width": 0
+      },
+      "android_kabi_reserved3": {
+        "bits": 28736,
+        "width": 0
+      },
+      "android_kabi_reserved4": {
+        "bits": 28800,
+        "width": 0
+      },
+      "android_kabi_reserved5": {
+        "bits": 28864,
+        "width": 0
+      },
+      "android_kabi_reserved6": {
+        "bits": 28928,
+        "width": 0
+      },
+      "android_kabi_reserved7": {
+        "bits": 28992,
+        "width": 0
+      },
+      "android_kabi_reserved8": {
+        "bits": 29056,
+        "width": 0
+      },
+      "thread": {
+        "bits": 29184,
+        "width": 0
+      }
+    }
+  },
+  "module": {
+    "size": 1536,
+    "members": {
+      "state": {
+        "bits": 0,
+        "width": 0
+      },
+      "list": {
+        "bits": 64,
+        "width": 0
+      },
+      "name": {
+        "bits": 192,
+        "width": 0
+      },
+      "build_id": {
+        "bits": 640,
+        "width": 0
+      },
+      "mkobj": {
+        "bits": 832,
+        "width": 0
+      },
+      "modinfo_attrs": {
+        "bits": 1856,
+        "width": 0
+      },
+      "version": {
+        "bits": 1920,
+        "width": 0
+      },
+      "srcversion": {
+        "bits": 1984,
+        "width": 0
+      },
+      "scmversion": {
+        "bits": 2048,
+        "width": 0
+      },
+      "holders_dir": {
+        "bits": 2112,
+        "width": 0
+      },
+      "syms": {
+        "bits": 2176,
+        "width": 0
+      },
+      "crcs": {
+        "bits": 2240,
+        "width": 0
+      },
+      "num_syms": {
+        "bits": 2304,
+        "width": 0
+      },
+      "param_lock": {
+        "bits": 2368,
+        "width": 0
+      },
+      "kp": {
+        "bits": 2752,
+        "width": 0
+      },
+      "num_kp": {
+        "bits": 2816,
+        "width": 0
+      },
+      "num_gpl_syms": {
+        "bits": 2848,
+        "width": 0
+      },
+      "gpl_syms": {
+        "bits": 2880,
+        "width": 0
+      },
+      "gpl_crcs": {
+        "bits": 2944,
+        "width": 0
+      },
+      "using_gplonly_symbols": {
+        "bits": 3008,
+        "width": 0
+      },
+      "sig_ok": {
+        "bits": 3016,
+        "width": 0
+      },
+      "async_probe_requested": {
+        "bits": 3024,
+        "width": 0
+      },
+      "num_exentries": {
+        "bits": 3040,
+        "width": 0
+      },
+      "extable": {
+        "bits": 3072,
+        "width": 0
+      },
+      "init": {
+        "bits": 3136,
+        "width": 0
+      },
+      "mem": {
+        "bits": 3584,
+        "width": 0
+      },
+      "arch": {
+        "bits": 7616,
+        "width": 0
+      },
+      "taints": {
+        "bits": 9152,
+        "width": 0
+      },
+      "num_bugs": {
+        "bits": 9216,
+        "width": 0
+      },
+      "bug_list": {
+        "bits": 9280,
+        "width": 0
+      },
+      "bug_table": {
+        "bits": 9408,
+        "width": 0
+      },
+      "kallsyms": {
+        "bits": 9472,
+        "width": 0
+      },
+      "core_kallsyms": {
+        "bits": 9536,
+        "width": 0
+      },
+      "sect_attrs": {
+        "bits": 9792,
+        "width": 0
+      },
+      "notes_attrs": {
+        "bits": 9856,
+        "width": 0
+      },
+      "args": {
+        "bits": 9920,
+        "width": 0
+      },
+      "percpu": {
+        "bits": 9984,
+        "width": 0
+      },
+      "percpu_size": {
+        "bits": 10048,
+        "width": 0
+      },
+      "noinstr_text_start": {
+        "bits": 10112,
+        "width": 0
+      },
+      "noinstr_text_size": {
+        "bits": 10176,
+        "width": 0
+      },
+      "num_tracepoints": {
+        "bits": 10208,
+        "width": 0
+      },
+      "tracepoints_ptrs": {
+        "bits": 10240,
+        "width": 0
+      },
+      "num_srcu_structs": {
+        "bits": 10304,
+        "width": 0
+      },
+      "srcu_struct_ptrs": {
+        "bits": 10368,
+        "width": 0
+      },
+      "num_bpf_raw_events": {
+        "bits": 10432,
+        "width": 0
+      },
+      "bpf_raw_events": {
+        "bits": 10496,
+        "width": 0
+      },
+      "btf_data_size": {
+        "bits": 10560,
+        "width": 0
+      },
+      "btf_data": {
+        "bits": 10624,
+        "width": 0
+      },
+      "jump_entries": {
+        "bits": 10688,
+        "width": 0
+      },
+      "num_jump_entries": {
+        "bits": 10752,
+        "width": 0
+      },
+      "num_trace_bprintk_fmt": {
+        "bits": 10784,
+        "width": 0
+      },
+      "trace_bprintk_fmt_start": {
+        "bits": 10816,
+        "width": 0
+      },
+      "trace_events": {
+        "bits": 10880,
+        "width": 0
+      },
+      "num_trace_events": {
+        "bits": 10944,
+        "width": 0
+      },
+      "trace_evals": {
+        "bits": 11008,
+        "width": 0
+      },
+      "num_trace_evals": {
+        "bits": 11072,
+        "width": 0
+      },
+      "kprobes_text_start": {
+        "bits": 11136,
+        "width": 0
+      },
+      "kprobes_text_size": {
+        "bits": 11200,
+        "width": 0
+      },
+      "kprobe_blacklist": {
+        "bits": 11264,
+        "width": 0
+      },
+      "num_kprobe_blacklist": {
+        "bits": 11328,
+        "width": 0
+      },
+      "num_kunit_suites": {
+        "bits": 11360,
+        "width": 0
+      },
+      "kunit_suites": {
+        "bits": 11392,
+        "width": 0
+      },
+      "source_list": {
+        "bits": 11456,
+        "width": 0
+      },
+      "target_list": {
+        "bits": 11584,
+        "width": 0
+      },
+      "exit": {
+        "bits": 11712,
+        "width": 0
+      },
+      "refcnt": {
+        "bits": 11776,
+        "width": 0
+      },
+      "dyndbg_info": {
+        "bits": 11840,
+        "width": 0
+      },
+      "android_kabi_reserved1": {
+        "bits": 12032,
+        "width": 0
+      },
+      "android_kabi_reserved2": {
+        "bits": 12096,
+        "width": 0
+      },
+      "android_kabi_reserved3": {
+        "bits": 12160,
+        "width": 0
+      },
+      "android_kabi_reserved4": {
+        "bits": 12224,
+        "width": 0
+      }
+    }
+  },
+  "cred": {
+    "size": 184,
+    "members": {
+      "usage": {
+        "bits": 0,
+        "width": 0
+      },
+      "uid": {
+        "bits": 64,
+        "width": 0
+      },
+      "gid": {
+        "bits": 96,
+        "width": 0
+      },
+      "suid": {
+        "bits": 128,
+        "width": 0
+      },
+      "sgid": {
+        "bits": 160,
+        "width": 0
+      },
+      "euid": {
+        "bits": 192,
+        "width": 0
+      },
+      "egid": {
+        "bits": 224,
+        "width": 0
+      },
+      "fsuid": {
+        "bits": 256,
+        "width": 0
+      },
+      "fsgid": {
+        "bits": 288,
+        "width": 0
+      },
+      "securebits": {
+        "bits": 320,
+        "width": 0
+      },
+      "cap_inheritable": {
+        "bits": 384,
+        "width": 0
+      },
+      "cap_permitted": {
+        "bits": 448,
+        "width": 0
+      },
+      "cap_effective": {
+        "bits": 512,
+        "width": 0
+      },
+      "cap_bset": {
+        "bits": 576,
+        "width": 0
+      },
+      "cap_ambient": {
+        "bits": 640,
+        "width": 0
+      },
+      "jit_keyring": {
+        "bits": 704,
+        "width": 0
+      },
+      "session_keyring": {
+        "bits": 768,
+        "width": 0
+      },
+      "process_keyring": {
+        "bits": 832,
+        "width": 0
+      },
+      "thread_keyring": {
+        "bits": 896,
+        "width": 0
+      },
+      "request_key_auth": {
+        "bits": 960,
+        "width": 0
+      },
+      "security": {
+        "bits": 1024,
+        "width": 0
+      },
+      "user": {
+        "bits": 1088,
+        "width": 0
+      },
+      "user_ns": {
+        "bits": 1152,
+        "width": 0
+      },
+      "ucounts": {
+        "bits": 1216,
+        "width": 0
+      },
+      "group_info": {
+        "bits": 1280,
+        "width": 0
+      },
+      "non_rcu": {
+        "bits": 1344,
+        "width": 0
+      },
+      "rcu": {
+        "bits": 1344,
+        "width": 0
+      }
+    }
+  },
+  "file": {
+    "size": 264,
+    "members": {
+      "f_llist": {
+        "bits": 0,
+        "width": 0
+      },
+      "f_rcuhead": {
+        "bits": 0,
+        "width": 0
+      },
+      "f_iocb_flags": {
+        "bits": 0,
+        "width": 0
+      },
+      "f_lock": {
+        "bits": 128,
+        "width": 0
+      },
+      "f_mode": {
+        "bits": 160,
+        "width": 0
+      },
+      "f_count": {
+        "bits": 192,
+        "width": 0
+      },
+      "f_pos_lock": {
+        "bits": 256,
+        "width": 0
+      },
+      "f_pos": {
+        "bits": 640,
+        "width": 0
+      },
+      "f_flags": {
+        "bits": 704,
+        "width": 0
+      },
+      "f_owner": {
+        "bits": 768,
+        "width": 0
+      },
+      "f_cred": {
+        "bits": 1024,
+        "width": 0
+      },
+      "f_ra": {
+        "bits": 1088,
+        "width": 0
+      },
+      "f_path": {
+        "bits": 1344,
+        "width": 0
+      },
+      "f_inode": {
+        "bits": 1472,
+        "width": 0
+      },
+      "f_op": {
+        "bits": 1536,
+        "width": 0
+      },
+      "f_version": {
+        "bits": 1600,
+        "width": 0
+      },
+      "f_security": {
+        "bits": 1664,
+        "width": 0
+      },
+      "private_data": {
+        "bits": 1728,
+        "width": 0
+      },
+      "f_ep": {
+        "bits": 1792,
+        "width": 0
+      },
+      "f_mapping": {
+        "bits": 1856,
+        "width": 0
+      },
+      "f_wb_err": {
+        "bits": 1920,
+        "width": 0
+      },
+      "f_sb_err": {
+        "bits": 1952,
+        "width": 0
+      },
+      "android_kabi_reserved1": {
+        "bits": 1984,
+        "width": 0
+      },
+      "android_kabi_reserved2": {
+        "bits": 2048,
+        "width": 0
+      }
+    }
+  },
+  "inode": {
+    "size": 704,
+    "members": {
+      "i_mode": {
+        "bits": 0,
+        "width": 0
+      },
+      "i_opflags": {
+        "bits": 16,
+        "width": 0
+      },
+      "i_uid": {
+        "bits": 32,
+        "width": 0
+      },
+      "i_gid": {
+        "bits": 64,
+        "width": 0
+      },
+      "i_flags": {
+        "bits": 96,
+        "width": 0
+      },
+      "i_acl": {
+        "bits": 128,
+        "width": 0
+      },
+      "i_default_acl": {
+        "bits": 192,
+        "width": 0
+      },
+      "i_op": {
+        "bits": 256,
+        "width": 0
+      },
+      "i_sb": {
+        "bits": 320,
+        "width": 0
+      },
+      "i_mapping": {
+        "bits": 384,
+        "width": 0
+      },
+      "i_security": {
+        "bits": 448,
+        "width": 0
+      },
+      "i_ino": {
+        "bits": 512,
+        "width": 0
+      },
+      "i_nlink": {
+        "bits": 576,
+        "width": 0
+      },
+      "__i_nlink": {
+        "bits": 576,
+        "width": 0
+      },
+      "i_rdev": {
+        "bits": 608,
+        "width": 0
+      },
+      "i_size": {
+        "bits": 640,
+        "width": 0
+      },
+      "i_atime": {
+        "bits": 704,
+        "width": 0
+      },
+      "i_mtime": {
+        "bits": 832,
+        "width": 0
+      },
+      "__i_ctime": {
+        "bits": 960,
+        "width": 0
+      },
+      "i_lock": {
+        "bits": 1088,
+        "width": 0
+      },
+      "i_bytes": {
+        "bits": 1120,
+        "width": 0
+      },
+      "i_blkbits": {
+        "bits": 1136,
+        "width": 0
+      },
+      "i_write_hint": {
+        "bits": 1144,
+        "width": 0
+      },
+      "i_blocks": {
+        "bits": 1152,
+        "width": 0
+      },
+      "i_state": {
+        "bits": 1216,
+        "width": 0
+      },
+      "i_rwsem": {
+        "bits": 1280,
+        "width": 0
+      },
+      "dirtied_when": {
+        "bits": 1792,
+        "width": 0
+      },
+      "dirtied_time_when": {
+        "bits": 1856,
+        "width": 0
+      },
+      "i_hash": {
+        "bits": 1920,
+        "width": 0
+      },
+      "i_io_list": {
+        "bits": 2048,
+        "width": 0
+      },
+      "i_wb": {
+        "bits": 2176,
+        "width": 0
+      },
+      "i_wb_frn_winner": {
+        "bits": 2240,
+        "width": 0
+      },
+      "i_wb_frn_avg_time": {
+        "bits": 2272,
+        "width": 0
+      },
+      "i_wb_frn_history": {
+        "bits": 2288,
+        "width": 0
+      },
+      "i_lru": {
+        "bits": 2304,
+        "width": 0
+      },
+      "i_sb_list": {
+        "bits": 2432,
+        "width": 0
+      },
+      "i_wb_list": {
+        "bits": 2560,
+        "width": 0
+      },
+      "i_dentry": {
+        "bits": 2688,
+        "width": 0
+      },
+      "i_rcu": {
+        "bits": 2688,
+        "width": 0
+      },
+      "i_version": {
+        "bits": 2816,
+        "width": 0
+      },
+      "i_sequence": {
+        "bits": 2880,
+        "width": 0
+      },
+      "i_count": {
+        "bits": 2944,
+        "width": 0
+      },
+      "i_dio_count": {
+        "bits": 2976,
+        "width": 0
+      },
+      "i_writecount": {
+        "bits": 3008,
+        "width": 0
+      },
+      "i_readcount": {
+        "bits": 3040,
+        "width": 0
+      },
+      "i_fop": {
+        "bits": 3072,
+        "width": 0
+      },
+      "free_inode": {
+        "bits": 3072,
+        "width": 0
+      },
+      "i_flctx": {
+        "bits": 3136,
+        "width": 0
+      },
+      "i_data": {
+        "bits": 3200,
+        "width": 0
+      },
+      "i_devices": {
+        "bits": 5120,
+        "width": 0
+      },
+      "i_pipe": {
+        "bits": 5248,
+        "width": 0
+      },
+      "i_cdev": {
+        "bits": 5248,
+        "width": 0
+      },
+      "i_link": {
+        "bits": 5248,
+        "width": 0
+      },
+      "i_dir_seq": {
+        "bits": 5248,
+        "width": 0
+      },
+      "i_generation": {
+        "bits": 5312,
+        "width": 0
+      },
+      "i_fsnotify_mask": {
+        "bits": 5344,
+        "width": 0
+      },
+      "i_fsnotify_marks": {
+        "bits": 5376,
+        "width": 0
+      },
+      "i_crypt_info": {
+        "bits": 5440,
+        "width": 0
+      },
+      "i_verity_info": {
+        "bits": 5504,
+        "width": 0
+      },
+      "i_private": {
+        "bits": 5568,
+        "width": 0
+      }
+    }
+  },
+  "mm_struct": {
+    "size": 1216,
+    "members": {
+      "mm_count": {
+        "bits": 0,
+        "width": 0
+      },
+      "mm_mt": {
+        "bits": 512,
+        "width": 0
+      },
+      "get_unmapped_area": {
+        "bits": 640,
+        "width": 0
+      },
+      "mmap_base": {
+        "bits": 704,
+        "width": 0
+      },
+      "mmap_legacy_base": {
+        "bits": 768,
+        "width": 0
+      },
+      "task_size": {
+        "bits": 832,
+        "width": 0
+      },
+      "pgd": {
+        "bits": 896,
+        "width": 0
+      },
+      "membarrier_state": {
+        "bits": 960,
+        "width": 0
+      },
+      "mm_users": {
+        "bits": 992,
+        "width": 0
+      },
+      "pgtables_bytes": {
+        "bits": 1024,
+        "width": 0
+      },
+      "map_count": {
+        "bits": 1088,
+        "width": 0
+      },
+      "page_table_lock": {
+        "bits": 1120,
+        "width": 0
+      },
+      "mmap_lock": {
+        "bits": 1152,
+        "width": 0
+      },
+      "mmlist": {
+        "bits": 1664,
+        "width": 0
+      },
+      "mm_lock_seq": {
+        "bits": 1792,
+        "width": 0
+      },
+      "hiwater_rss": {
+        "bits": 1856,
+        "width": 0
+      },
+      "hiwater_vm": {
+        "bits": 1920,
+        "width": 0
+      },
+      "total_vm": {
+        "bits": 1984,
+        "width": 0
+      },
+      "locked_vm": {
+        "bits": 2048,
+        "width": 0
+      },
+      "pinned_vm": {
+        "bits": 2112,
+        "width": 0
+      },
+      "data_vm": {
+        "bits": 2176,
+        "width": 0
+      },
+      "exec_vm": {
+        "bits": 2240,
+        "width": 0
+      },
+      "stack_vm": {
+        "bits": 2304,
+        "width": 0
+      },
+      "def_flags": {
+        "bits": 2368,
+        "width": 0
+      },
+      "write_protect_seq": {
+        "bits": 2432,
+        "width": 0
+      },
+      "arg_lock": {
+        "bits": 2464,
+        "width": 0
+      },
+      "start_code": {
+        "bits": 2496,
+        "width": 0
+      },
+      "end_code": {
+        "bits": 2560,
+        "width": 0
+      },
+      "start_data": {
+        "bits": 2624,
+        "width": 0
+      },
+      "end_data": {
+        "bits": 2688,
+        "width": 0
+      },
+      "start_brk": {
+        "bits": 2752,
+        "width": 0
+      },
+      "brk": {
+        "bits": 2816,
+        "width": 0
+      },
+      "start_stack": {
+        "bits": 2880,
+        "width": 0
+      },
+      "arg_start": {
+        "bits": 2944,
+        "width": 0
+      },
+      "arg_end": {
+        "bits": 3008,
+        "width": 0
+      },
+      "env_start": {
+        "bits": 3072,
+        "width": 0
+      },
+      "env_end": {
+        "bits": 3136,
+        "width": 0
+      },
+      "saved_auxv": {
+        "bits": 3200,
+        "width": 0
+      },
+      "rss_stat": {
+        "bits": 6400,
+        "width": 0
+      },
+      "binfmt": {
+        "bits": 7680,
+        "width": 0
+      },
+      "context": {
+        "bits": 7744,
+        "width": 0
+      },
+      "flags": {
+        "bits": 8064,
+        "width": 0
+      },
+      "ioctx_lock": {
+        "bits": 8128,
+        "width": 0
+      },
+      "ioctx_table": {
+        "bits": 8192,
+        "width": 0
+      },
+      "owner": {
+        "bits": 8256,
+        "width": 0
+      },
+      "user_ns": {
+        "bits": 8320,
+        "width": 0
+      },
+      "exe_file": {
+        "bits": 8384,
+        "width": 0
+      },
+      "notifier_subscriptions": {
+        "bits": 8448,
+        "width": 0
+      },
+      "tlb_flush_pending": {
+        "bits": 8512,
+        "width": 0
+      },
+      "tlb_flush_batched": {
+        "bits": 8544,
+        "width": 0
+      },
+      "uprobes_state": {
+        "bits": 8576,
+        "width": 0
+      },
+      "async_put_work": {
+        "bits": 8640,
+        "width": 0
+      },
+      "lru_gen": {
+        "bits": 9024,
+        "width": 0
+      },
+      "android_kabi_reserved1": {
+        "bits": 9280,
+        "width": 0
+      },
+      "android_backport_reserved1": {
+        "bits": 9344,
+        "width": 0
+      },
+      "cpu_bitmap": {
+        "bits": 9728,
+        "width": 0
+      }
+    }
+  }
+}
