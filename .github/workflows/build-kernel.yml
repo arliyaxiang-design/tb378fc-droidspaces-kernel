@@ -1,0 +1,29 @@
+name: Build TB378FC Droidspaces candidate
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: tb378fc-droidspaces
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y bc bison flex libssl-dev libelf-dev dwarves zstd libzstd-dev build-essential python3 cpio rsync git openssl
+      - name: Verify build inputs
+        run: sha256sum -c INPUT-SHA256SUMS
+      - name: Build and audit
+        run: bash scripts/build-kernel.sh
+      - name: Upload reports and untested candidate
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tb378fc-droidspaces-${{ github.run_id }}
+          path: dist/
+          if-no-files-found: warn
+          retention-days: 14
+          
